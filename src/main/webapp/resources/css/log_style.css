@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 246);
+    position:absolute; 
+    top:50%; 
+    left: 50%;
+    margin: -5% -5%;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.login_bg{
+    
+    color:black;
+    align-items: center;
+    position: absolute;
+}
+.login_logo{
+    font-family:Gemunu Libre;
+    text-align: center;
+   	margin-top:-50px; 
+   	margin-bottom: 50px;
+   
+}
+.login_logo a{
+    color: black;
+    font-size: 25px;
+   
+}
+.login_logo i{
+    color: lightblue;
+    font-size: 50px;
+}
+
+.login_page button{
+    background-color:black;
+    border-color:beige;
+    color: beige;
+    width: 80px;
+}
+#kakaotolk_img{
+    align-items: center;
+}

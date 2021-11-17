@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+	background-color: rgb(255, 255, 246);
+    margin: 0;
+    font-family:Gemunu Libre;
+    padding-top: 75px;
+    background-image: url("../imgs/main_bg_1.png");
+    background-size: cover;
+}
+nav{
+	margin-top: -100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.main_logo{
+    font-size: 24px;
+    font-family:Gemunu Libre;
+}
+
+.main_logo i{
+    color: lightblue;
+    font-size: 50px;
+}
+.main_menu ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.main_menu li{
+    padding: 8px 12px;
+    margin: 20px;
+    font-size: 24px;
+}
+.main_menu li:hover{
+    background-color: lightcoral;
+    border-radius: 4px;
+}
+.main_login{
+    display: flex;
+    font-size: 24px;
+}
+.main_login i{
+    font-size: 32px;
+}
+.main_login:hover i{
+    transition:scale(0.1);
+    background-color: lightgreen;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+
+section{
+    color: black;
+    padding-left: 50px;
+}
+

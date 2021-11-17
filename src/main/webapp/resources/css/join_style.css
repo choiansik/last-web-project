@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    width: 100%;
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: rgb(255, 255, 246);
+    text-decoration: none;
+
+}	
+div{
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 2px;
+    
+    
+}
+.join_input{
+    width:50%;
+ 
+}
+
+div label{
+    display: block;
+    text-align:left;
+    width:120px;
+    padding: right 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.join_logo i{
+    color: lightblue;
+}
+.join_logo{
+    text-decoration: none;
+    text-align: center;
+    font-family:Gemunu Libre;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+}
+
+.join_input p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.btnfield{
+    
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+#addNext{
+    opacity: 0;
+}
+#joinclick{ 
+    background-color: black;
+    color: beige;
+    border-color: beige;
+    
+}
+#postcode2{
+    background-color: black;
+    color: beige;
+    border-color: beige;
+}
+
+.formfield input{
+	width: 200px;
+	
+}
+p{
+	margin-left: 100px;	
+}
+
+
+
+
